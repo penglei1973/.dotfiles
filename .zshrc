@@ -18,7 +18,8 @@ set -o vi
 # manage dotfiles with git
 
 # setting up a new machine
-# git clone --separate-git-dir=$HOME/.dotfiles https://github.com/penglei1973/.dotfiles  ~ 
+# git clone --bare https://github.com/penglei1973/.dotfiles  $HOME/.dotfiles
+# alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # add a new dotfiles to repository
 # cd $HOME
